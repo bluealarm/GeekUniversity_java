@@ -50,7 +50,8 @@ public class SemaphoreMethod {
         // 异步执行 下面方法
         SemaphoreMethod semaphoreMethod = new SemaphoreMethod();
 
-        new Thread(semaphoreMethod::setSum).start();
+        new Thread(()->semaphoreMethod.setSum()).start();
+//        new Thread(semaphoreMethod::setSum).start();
         new Thread(() -> semaphoreMethod.printResult(start)).start();
 
         // 然后退出main线程

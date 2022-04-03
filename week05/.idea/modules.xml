@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aopdemo/aopdemo.iml" filepath="$PROJECT_DIR$/aopdemo/aopdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databasedemo/databasedemo.iml" filepath="$PROJECT_DIR$/databasedemo/databasedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/schooldemo/schooldemo.iml" filepath="$PROJECT_DIR$/schooldemo/schooldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/week05.iml" filepath="$PROJECT_DIR$/.idea/week05.iml" />
+    </modules>
+  </component>
+</project>

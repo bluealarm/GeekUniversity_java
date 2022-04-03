@@ -6,6 +6,7 @@ import io.github.kimmking.gateway.filter.HttpRequestFilter;
 import io.github.kimmking.gateway.filter.HttpResponseFilter;
 import io.github.kimmking.gateway.router.HttpEndpointRouter;
 import io.github.kimmking.gateway.router.RandomHttpEndpointRouter;
+import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -13,6 +14,7 @@ import io.netty.handler.codec.http.DefaultFullHttpResponse;
 import io.netty.handler.codec.http.FullHttpRequest;
 import io.netty.handler.codec.http.FullHttpResponse;
 import io.netty.handler.codec.http.HttpUtil;
+import io.netty.util.CharsetUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.concurrent.FutureCallback;
@@ -127,7 +129,7 @@ public class HttpOutboundHandler {
 
             response.headers().set("Content-Type", "application/json");
             response.headers().setInt("Content-Length", Integer.parseInt(endpointResponse.getFirstHeader("Content-Length").getValue()));
-
+            System.out.println(response.content().toString(CharsetUtil.UTF_8));
             filter.filter(response);
 
 //            for (Header e : endpointResponse.getAllHeaders()) {

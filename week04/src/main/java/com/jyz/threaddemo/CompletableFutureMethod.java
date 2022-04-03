@@ -18,7 +18,6 @@ public class CompletableFutureMethod {
         long start=System.currentTimeMillis();
         // 在这里创建一个线程或线程池，
         // 异步执行 下面方法
-
         int result = CompletableFuture.supplyAsync(() -> sum()).join(); //这是得到的返回值
 
         // 确保  拿到result 并输出

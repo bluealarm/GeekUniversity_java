@@ -21,6 +21,7 @@ public class HttpInboundInitializer extends ChannelInitializer<SocketChannel> {
 	
 	@Override
 	public void initChannel(SocketChannel ch) {
+		System.out.println("InboundInitChannel");
 		ChannelPipeline p = ch.pipeline();
 //		if (sslCtx != null) {
 //			p.addLast(sslCtx.newHandler(ch.alloc()));

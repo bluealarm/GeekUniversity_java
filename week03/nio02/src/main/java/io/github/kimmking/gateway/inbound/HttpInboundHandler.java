@@ -4,6 +4,7 @@ import com.jyz.homework03.ProxyBizFilter;
 import io.github.kimmking.gateway.filter.HeaderHttpRequestFilter;
 import io.github.kimmking.gateway.filter.HttpRequestFilter;
 import io.github.kimmking.gateway.outbound.httpclient4.HttpOutboundHandler;
+import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -11,10 +12,12 @@ import io.netty.handler.codec.http.DefaultFullHttpResponse;
 import io.netty.handler.codec.http.FullHttpRequest;
 import io.netty.handler.codec.http.FullHttpResponse;
 import io.netty.handler.codec.http.HttpUtil;
+import io.netty.util.CharsetUtil;
 import io.netty.util.ReferenceCountUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.nio.ByteBuffer;
 import java.util.List;
 
 import static io.netty.handler.codec.http.HttpResponseStatus.NO_CONTENT;
@@ -47,6 +50,8 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
         }
         FullHttpRequest fullRequest =(FullHttpRequest) msg;
         try {
+
+            String clientContent  = fullRequest.content().toString(CharsetUtil.UTF_8);
             handler.handle(fullRequest, ctx, filter);
 
         } catch (Exception e) {
