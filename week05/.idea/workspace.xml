@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cca96b20-a28c-4549-9426-4b330ae0c45c" name="Default Changelist" comment="week05" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Java\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="27HwIiukVSj1cfn8OpKFLWBNc60" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaCourseCodes/04fx" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="android.project.structure" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SchoolTest.test">
+    <configuration name="BeanLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.BeanLoad" />
+      <module name="aopdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoWiringExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aopdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.AutoWiringExampleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyJavaCodeExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aopdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.MyJavaCodeExampleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchoolTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aopdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.SchoolTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.aopdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.XmlExampleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aopdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.aopdemo.AopdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabasedemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="databasedemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.databasedemo.DatabasedemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchooldemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="schooldemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.schooldemo.SchooldemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbeandemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbeandemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbeandemo.SpringbeandemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SchoolTest.test" />
+        <item itemvalue="JUnit.XmlExampleTest.test" />
+        <item itemvalue="JUnit.MyJavaCodeExampleTest.test" />
+        <item itemvalue="Application.BeanLoad" />
+        <item itemvalue="JUnit.AutoWiringExampleTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cca96b20-a28c-4549-9426-4b330ae0c45c" name="Default Changelist" comment="" />
+      <created>1648990241692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648990241692</updated>
+      <workItem from="1648990246587" duration="1438000" />
+      <workItem from="1648991738682" duration="2850000" />
+      <workItem from="1649406145799" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="week05" />
+    <option name="LAST_COMMIT_MESSAGE" value="week05" />
+  </component>
+</project>
