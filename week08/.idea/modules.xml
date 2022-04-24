@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo/hmily-demo.iml" filepath="$PROJECT_DIR$/hmily-demo/hmily-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shardingproxy-demo/shardingproxy-demo.iml" filepath="$PROJECT_DIR$/shardingproxy-demo/shardingproxy-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo/springcloud-account/springcloud-account.iml" filepath="$PROJECT_DIR$/hmily-demo/springcloud-account/springcloud-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo/springcloud-common/springcloud-common.iml" filepath="$PROJECT_DIR$/hmily-demo/springcloud-common/springcloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/hmily-demo/springcloud-eureka/springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo/springcloud-inventory/springcloud-inventory.iml" filepath="$PROJECT_DIR$/hmily-demo/springcloud-inventory/springcloud-inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo/springcloud-order/springcloud-order.iml" filepath="$PROJECT_DIR$/hmily-demo/springcloud-order/springcloud-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/week08.iml" filepath="$PROJECT_DIR$/.idea/week08.iml" />
+    </modules>
+  </component>
+</project>
