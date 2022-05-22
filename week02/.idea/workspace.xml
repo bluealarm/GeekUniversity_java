@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b6fa6bd-7469-4f8a-b4f3-86b2e7e13202" name="Default Changelist" comment="week02" />
+    <list default="true" id="2b6fa6bd-7469-4f8a-b4f3-86b2e7e13202" name="Default Changelist" comment="week02">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week05/databasedemo/src/main/java/com/example/databasedemo/database/jdbc/MysqlJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week05/databasedemo/src/main/java/com/example/databasedemo/database/jdbc/MysqlJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week05/databasedemo/src/main/resources/hikari.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../week05/databasedemo/src/main/resources/hikari.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,13 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,6 +128,7 @@
       <workItem from="1647179050750" duration="2637000" />
       <workItem from="1648630357537" duration="339000" />
       <workItem from="1648630718253" duration="257000" />
+      <workItem from="1651022641151" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary="week02">
       <created>1647182370518</created>

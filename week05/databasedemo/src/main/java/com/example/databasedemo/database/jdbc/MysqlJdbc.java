@@ -21,7 +21,7 @@ public class MysqlJdbc {
         }
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/connection", "root", "123.abc");
             if (connection != null) {
                 System.out.println("Connection successful!");
             } else {

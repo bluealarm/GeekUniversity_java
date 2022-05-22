@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca96b20-a28c-4549-9426-4b330ae0c45c" name="Default Changelist" comment="week05" />
+    <list default="true" id="cca96b20-a28c-4549-9426-4b330ae0c45c" name="Default Changelist" comment="week05">
+      <change beforePath="$PROJECT_DIR$/../week02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databasedemo/src/main/java/com/example/databasedemo/database/jdbc/MysqlJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/databasedemo/src/main/java/com/example/databasedemo/database/jdbc/MysqlJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databasedemo/src/main/resources/hikari.properties" beforeDir="false" afterPath="$PROJECT_DIR$/databasedemo/src/main/resources/hikari.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week09/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week09/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week09/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week09/.idea/modules.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +62,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SchoolTest.test">
+  <component name="RunManager" selected="Application.MysqlJdbc">
     <configuration name="BeanLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.BeanLoad" />
       <module name="aopdemo" />
@@ -69,18 +76,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoWiringExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aopdemo" />
+    <configuration name="MysqlJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.databasedemo.database.jdbc.MysqlJdbc" />
+      <module name="databasedemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.aopdemo.*" />
+          <option name="PATTERN" value="com.example.databasedemo.database.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.aopdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.aopdemo.AutoWiringExampleTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MysqlJdbc" />
         <item itemvalue="JUnit.SchoolTest.test" />
         <item itemvalue="JUnit.XmlExampleTest.test" />
         <item itemvalue="JUnit.MyJavaCodeExampleTest.test" />
         <item itemvalue="Application.BeanLoad" />
-        <item itemvalue="JUnit.AutoWiringExampleTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +197,11 @@
       <workItem from="1648990246587" duration="1438000" />
       <workItem from="1648991738682" duration="2850000" />
       <workItem from="1649406145799" duration="47000" />
+      <workItem from="1650790424474" duration="3289000" />
+      <workItem from="1650937007385" duration="415000" />
+      <workItem from="1651027141385" duration="4246000" />
+      <workItem from="1652793273505" duration="400000" />
+      <workItem from="1652793759048" duration="33000" />
     </task>
     <servers />
   </component>
@@ -204,5 +224,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="week05" />
     <option name="LAST_COMMIT_MESSAGE" value="week05" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/databasedemo/src/main/java/com/example/databasedemo/database/jdbc/MysqlJdbc.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/databasedemo/src/main/java/com/example/databasedemo/database/hikari/HikariRunner.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
